@@ -10,6 +10,17 @@ namespace ESDAT_T2 {
         
         static void Main(string[] args) {
             ArbolBBP arbol = new ArbolBBP();
+
+            //agregando empleados
+            arbol.Agrega(new Empleado(3689, "a", 5));
+            arbol.Agrega(new Empleado(2378, "b", 15));
+            arbol.Agrega(new Empleado(4975, "c", 25));
+            arbol.Agrega(new Empleado(8162, "d", 35));
+            arbol.Agrega(new Empleado(4763, "e", 45));
+            arbol.Agrega(new Empleado(5915, "f", 55));
+            arbol.Agrega(new Empleado(1584, "g", 65));
+            arbol.Agrega(new Empleado(5861, "h", 75));
+
             while (true) {
                 Console.WriteLine("1. Agrega");
                 Console.WriteLine("2. Listar1");
