@@ -34,8 +34,8 @@ namespace ESDAT_T2 {
         }
         private void InOrden(NodoP nodo) {
             if(nodo != null) {
-                Console.WriteLine(nodo.ToString());
                 InOrden(nodo.Izqu);
+                Console.WriteLine(nodo.ToString());
                 InOrden(nodo.Dere);
             }
         }

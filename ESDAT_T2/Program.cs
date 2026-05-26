@@ -21,7 +21,6 @@ namespace ESDAT_T2 {
                 Console.Write("> ");
                 string opcion = Console.ReadLine();
                 int.TryParse(opcion, out int value);
-                Console.WriteLine(value);
 
                 switch (value) {
                     case 0:
