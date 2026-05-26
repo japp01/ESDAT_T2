@@ -6,5 +6,17 @@ using System.Threading.Tasks;
 
 namespace ESDAT_T2 {
     internal class Empleado {
+        public int Codigo { get; set; }
+        public string Nombre { get; set; }
+        public int Antiguedad { get; set; }
+        public Empleado() { }
+        public Empleado(int codigo, string nombre, int antiguedad) {
+            Codigo = codigo;
+            Nombre = nombre;
+            Antiguedad = antiguedad;
+        }
+        public override string ToString() {
+            return $"Codigo: {Codigo}, Nombre: {Nombre}, Antiguedad: {Antiguedad}";
+        }
     }
 }
