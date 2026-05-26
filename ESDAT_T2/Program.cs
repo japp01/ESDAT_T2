@@ -61,6 +61,10 @@ namespace ESDAT_T2 {
                         break;
                     case 9:
                         return;
+                    default:
+                        Console.WriteLine("Opcion incorrecta");
+                        arbol.Retornar();
+                        break;
                 }
             }
             
